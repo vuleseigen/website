@@ -2,17 +2,17 @@ import type { Member } from "@/types/member";
 
 export const members: Member[] = [
   {
-    name: "cortex",
-    link: "https://cortex.rest/",
-    github: "refurbishing",
-    discord_id: "400111022901559298",
+    name: "limgui",
+    link: "https://guns.lol/limgui",
+    github: "",
+    discord_id: "347772167695368202",
     projects: [
       {
-        name: "Equibop",
+        name: "Wisp",
         description:
-          "A custom Discord App aiming to give you better performance and improvements forked from Vesktop",
-        url: "https://github.com/Equicord/Equibop",
-        icon: "https://raw.githubusercontent.com/Equicord/Equibop/main/static/icon.png",
+          "Wisp is Discord's premier all-in-one app.",
+        url: "",
+        icon: "https://i.postimg.cc/zB9Z1XTV/e02f5214a1e4b8fbd838b8a28d2a394b.png",
         type: "website" as const,
       },
       {
