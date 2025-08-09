@@ -15,14 +15,6 @@ export const members: Member[] = [
         icon: "https://i.postimg.cc/zB9Z1XTV/e02f5214a1e4b8fbd838b8a28d2a394b.png",
         type: "website" as const,
       },
-      {
-        name: "VNREZ",
-        description:
-          "A utility-suite for Linux that records and screenshots your files easily and uploads them to a file host if desired",
-        url: "https://github.com/refurbishing/vnrez",
-        icon: "https://raw.githubusercontent.com/refurbishing/vnrez/main/assets/logo.png",
-        type: "website" as const,
-      },
     ],
   },
   {
