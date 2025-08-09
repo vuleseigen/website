@@ -25,6 +25,11 @@ export const members: Member[] = [
     name: "sexgeek",
     link: "#",
     discord_id: "1384662457569640448",
+  },
+  {
+    name: "loveis",
+    link: "#",
+    discord_id: "373147054844936193",
   }
  
 ].sort((a, b) => {
