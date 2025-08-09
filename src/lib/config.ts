@@ -5,6 +5,7 @@ export const members: Member[] = [
     name: "limgui",
     link: "https://guns.lol/limgui",
     discord_id: "347772167695368202",
+    badges: ["https://i.postimg.cc/44D7qZ0M/Haunter.gif"],
     projects: [
       {
         name: "Wisp",
