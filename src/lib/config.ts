@@ -22,6 +22,11 @@ export const members: Member[] = [
     discord_id: "642838726753648662",
   },
   {
+    name: "setsu",
+    link: "https://guns.lol/sxtsu",
+    discord_id: "827555837215768607",
+  },
+  {
     name: "sexgeek",
     link: "#",
     discord_id: "1384662457569640448",
@@ -38,7 +43,7 @@ export const members: Member[] = [
   }
  
 ].sort((a, b) => {
-  const topOrder = ["limgui", "nerable", "sexgeek"];
+  const topOrder = ["limgui", "nerable", "setsu"];
   if (topOrder.includes(a.name) && topOrder.includes(b.name)) return topOrder.indexOf(a.name) - topOrder.indexOf(b.name);
   if (topOrder.includes(a.name)) return -1;
   if (topOrder.includes(b.name)) return 1;
