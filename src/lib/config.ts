@@ -2,7 +2,7 @@ import type { Member } from "@/types/member";
 
 export const members: Member[] = [
   {
-    name: "limgui",
+    name: "saja",
     link: "https://guns.lol/limgui",
     discord_id: "347772167695368202",
     badges: ["https://i.postimg.cc/44D7qZ0M/Haunter.gif"],
