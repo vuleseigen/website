@@ -14,6 +14,14 @@ export const members: Member[] = [
         icon: "https://i.postimg.cc/zB9Z1XTV/e02f5214a1e4b8fbd838b8a28d2a394b.png",
         type: "website" as const,
       },
+      {
+        name: "Wrath",
+        description:
+          "Addendum to Wisp Bot.",
+        url: "#",
+        icon: "https://i.postimg.cc/bJrw5F83/77ea522c00a50fa3c928a6d95441baa8.png",
+        type: "website" as const,
+      },
     ],
   },
   {
@@ -25,6 +33,16 @@ export const members: Member[] = [
     name: "setsu",
     link: "https://guns.lol/sxtsu",
     discord_id: "827555837215768607",
+  },
+  {
+    name: "hell0",
+    link: "#",
+    discord_id: "564552405283373058",
+  },
+  {
+    name: "okuname",
+    link: "https://faceit.com/ru/players/okuname",
+    discord_id: "1121439009189670962",
   },
   {
     name: "sexgeek",
@@ -40,6 +58,11 @@ export const members: Member[] = [
     name: "pravoslavn1y",
     link: "#",
     discord_id: "409374229922840577",
+  },
+  {
+    name: "4ever",
+    link: "#",
+    discord_id: "624677536311279639",
   }
  
 ].sort((a, b) => {
