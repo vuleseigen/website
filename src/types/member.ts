@@ -15,4 +15,5 @@ export type Member = {
   discord_id?: string;
   projects?: Project[];
   stats?: GitHubStats;
+  badges?: string[];
 };
