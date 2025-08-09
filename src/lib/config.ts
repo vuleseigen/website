@@ -2,33 +2,23 @@ import type { Member } from "@/types/member";
 
 export const members: Member[] = [
   {
-    name: "shintomu",
-    link: "#",
-    discord_id: "1013953531117568051", 
+    name: "limgui",
+    link: "https://guns.lol/limgui",
+    discord_id: "347772167695368202", 
   },
   {
-    name: "external",
+    name: "nerable",
     link: "#",
-    discord_id: "1323491828648906855",
+    discord_id: "642838726753648662",
   },
   {
-    name: "compile",
-    link: "https://tempt.lol",
-    discord_id: "659438962624167957",
-    projects: [
-      {
-        name: "Tempt",
-        description:
-          "A powerful Discord bot for your community, with a focus on performance and reliability.",
-        url: "https://tempt.lol",
-        icon: "https://cdn.discordapp.com/avatars/1367774588750266408/a271d4855b63b329567c173cbd3557f9.png?size=1024",
-        type: "website" as const,
-      },
-    ],
+    name: "sexgeek",
+    link: "#",
+    discord_id: "1384662457569640448",
   }
  
 ].sort((a, b) => {
-  const topOrder = ["arespro", "cortex", "nyx"];
+  const topOrder = ["limgui", "nerable", "sexgeek"];
   if (topOrder.includes(a.name) && topOrder.includes(b.name)) return topOrder.indexOf(a.name) - topOrder.indexOf(b.name);
   if (topOrder.includes(a.name)) return -1;
   if (topOrder.includes(b.name)) return 1;
