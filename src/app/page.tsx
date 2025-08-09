@@ -509,6 +509,16 @@ export default function Home() {
                     onClick={() => handleMemberSelect(member)}
                   >
                     <div className="flex items-center justify-center gap-2">
+                      <div className="flex items-center gap-1">
+                        {member.badges?.map((badgeUrl, i) => (
+                          <img
+                            key={i}
+                            src={badgeUrl}
+                            alt="badge"
+                            className="w-4 h-4"
+                          />
+                        ))}
+                      </div>
                       {member.discord_id && (
                         renderAvatar(memberData[member.name], !memberData[member.name]?.discord_data)
                       )}
@@ -562,6 +572,16 @@ export default function Home() {
                     onClick={() => handleMemberSelect(member)}
                   >
                     <div className="flex items-center gap-2 w-full">
+                      <div className="flex items-center gap-1">
+                        {member.badges?.map((badgeUrl, i) => (
+                          <img
+                            key={i}
+                            src={badgeUrl}
+                            alt="badge"
+                            className="w-4 h-4"
+                          />
+                        ))}
+                      </div>
                       {member.discord_id && (
                         renderAvatar(memberData[member.name], !memberData[member.name]?.discord_data)
                       )}
@@ -659,6 +679,16 @@ export default function Home() {
                           <span className="font-semibold">
                             {currentMemberData.name}
                           </span>
+                          <div className="flex items-center gap-1.5">
+                            {currentMemberData.badges?.map((badgeUrl, i) => (
+                              <img
+                                key={i}
+                                src={badgeUrl}
+                                alt="badge"
+                                className="w-5 h-5"
+                              />
+                            ))}
+                          </div>
                           {currentMemberData.link &&
                             currentMemberData.link !== "#" && (
                               <Link
