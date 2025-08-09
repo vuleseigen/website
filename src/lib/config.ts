@@ -261,5 +261,5 @@ export const members: Member[] = [
   if (topOrder.includes(a.name) && topOrder.includes(b.name)) return topOrder.indexOf(a.name) - topOrder.indexOf(b.name);
   if (topOrder.includes(a.name)) return -1;
   if (topOrder.includes(b.name)) return 1;
-  return (b.projects?.length || 0) - (a.projects?.length || 0);
+  return 0;
 });
