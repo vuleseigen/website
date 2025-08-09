@@ -29,13 +29,16 @@ export const members: Member[] = [
     name: "nerable",
     link: "https://guns.lol/nerable",
     discord_id: "642838726753648662",
-    badges: ["https://i.postimg.cc/ryDMBPRt/nerable.png"],
+  },
+  {
+    name: "sexgeek",
+    link: "#",
+    discord_id: "1384662457569640448",
   },
   {
     name: "setsu",
     link: "https://guns.lol/sxtsu",
     discord_id: "827555837215768607",
-    badges: ["https://i.postimg.cc/YqNfM8Jt/setsuya.png"],
   },
   {
     name: "hell0",
@@ -46,18 +49,11 @@ export const members: Member[] = [
     name: "okuname",
     link: "https://faceit.com/ru/players/okuname",
     discord_id: "1121439009189670962",
-    badges: ["https://i.postimg.cc/jdYQpB38/okuname.png"],
-  },
-  {
-    name: "sexgeek",
-    link: "#",
-    discord_id: "1384662457569640448",
   },
   {
     name: "loveis",
     link: "https://guns.lol/drgnvl",
     discord_id: "373147054844936193",
-    badges: ["https://i.postimg.cc/rsxGd9sC/loveis.png"],
   },
   {
     name: "pravoslavn1y",
@@ -71,7 +67,7 @@ export const members: Member[] = [
   }
  
 ].sort((a, b) => {
-  const topOrder = ["saja", "nerable", "setsu"];
+  const topOrder = ["saja", "nerable", "sexgeek"];
   if (topOrder.includes(a.name) && topOrder.includes(b.name)) return topOrder.indexOf(a.name) - topOrder.indexOf(b.name);
   if (topOrder.includes(a.name)) return -1;
   if (topOrder.includes(b.name)) return 1;
