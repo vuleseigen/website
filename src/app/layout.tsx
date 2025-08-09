@@ -9,8 +9,8 @@ const kodeMono = Kode_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "vxnet",
-  description: "vxnet official homepage",
+  title: "noreply",
+  description: "noreply official homepage",
 };
 
 export default function RootLayout({
