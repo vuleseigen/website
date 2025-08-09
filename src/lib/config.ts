@@ -18,7 +18,7 @@ export const members: Member[] = [
   },
   {
     name: "nerable",
-    link: "#",
+    link: "https://guns.lol/nerable",
     discord_id: "642838726753648662",
   },
   {
