@@ -51,7 +51,7 @@ export const members: Member[] = [
   },
   {
     name: "loveis",
-    link: "#",
+    link: "guns.lol/drgnvl",
     discord_id: "373147054844936193",
   },
   {
