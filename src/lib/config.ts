@@ -29,7 +29,7 @@ export const members: Member[] = [
     name: "nerable",
     link: "https://guns.lol/nerable",
     discord_id: "642838726753648662",
-    badges: ["https://i.postimg.cc/1tLc5dm3/nerable.png"],
+    badges: ["https://i.postimg.cc/ryDMBPRt/nerable.png"],
   },
   {
     name: "setsu",
