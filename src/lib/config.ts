@@ -23,6 +23,14 @@ export const members: Member[] = [
         icon: "https://i.postimg.cc/bJrw5F83/77ea522c00a50fa3c928a6d95441baa8.png",
         type: "website" as const,
       },
+      {
+        name: "who does this?",
+        description:
+          "Raid tool for Discord.",
+        url: "#",
+        icon: "https://i.postimg.cc/nLxNLtbR/b30da021a070840e5e143a1f37f281cb.png",
+        type: "website" as const,
+      },
     ],
   },
   {
